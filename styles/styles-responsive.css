@@ -1,0 +1,122 @@
+@media (max-width: 1450px) {
+    .banner__title {
+        font-size: clamp(35px, 5.55vw, 50px);
+    }
+
+    .featured-project__slide {
+        align-items: center;
+    }
+
+    .featured-project__h3 {
+        width: 50vw;
+    }
+
+    .featured-project__desc {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 1280px) {
+    .menu__list {
+        -moz-column-gap: 30px;
+             column-gap: 30px;
+    }
+    .contacts__content {
+        -moz-column-gap: 50px;
+             column-gap: 50px;
+      }
+}
+
+@media (max-width: 950px) {
+    .our-expertise__cards {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .about__body {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .our-expertise__wrapper {
+        flex-direction: column;
+        row-gap: 50px;
+        margin-bottom: 60px;
+    }
+
+    .portfolio__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .w-1,
+    .w-2,
+    .w-3,
+    .w-4,
+    .w-5,
+    .w-6 {
+        grid-column: span 1;
+    }
+
+    .facts__list {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .our-team__cards {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        --swiper-navigation-size: 25px;
+        --swiper-navigation-sides-offset: 20px;
+    }
+
+    .swiper-pagination {
+        --swiper-pagination-bottom: 50px;
+    }
+
+    .featured-project__h3 {
+        width: 60vw;
+    }
+
+    .featured-project__desc {
+        width: 60vw;
+    }
+
+    .pricing-plans__cards {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .partners__container {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .contacts__content {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .contacts__form,
+    .contacts__map {
+        width: 100%;
+    }
+
+    .footer__list {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
